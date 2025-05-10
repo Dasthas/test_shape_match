@@ -38,7 +38,6 @@ namespace Core.FSM
 
         public void Initialize()
         {
-            Debug.Log("FiniteStateMachine initialized " + _statesMap.Count);
             ChangeState(StateType.Initialization);
         }
 

@@ -16,7 +16,6 @@ namespace Modules.UI.Main
         public void Dispose()
         {
             _mainScreenView.RestartButton.onClick.RemoveAllListeners();
-            // TODO release managed resources here
         }
     }
 }
